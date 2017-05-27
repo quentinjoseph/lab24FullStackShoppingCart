@@ -1,0 +1,43 @@
+/* This is an Angular trick to keep the {{}} expressions from flashing on page load. */
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Capriola|Comfortaa');
+
+.header{
+  height: 100px;
+}
+h2{
+  font-family: 'Comfortaa';
+  text-align: center;
+}
+
+.formDiv{
+  float: left;
+  width:50%;
+
+}
+.well{
+  border: 2px solid orange;
+  background-color: orange;
+  border-radius: 7px;
+}
+
+form{
+  font-family: 'Comfortaa';
+}
+table{
+  background-color: orange;
+  border-radius: 7px;
+  font-family: 'Comfortaa';
+}
+@media (max-width:670px){
+  .table-div{width:45%;}
+.formDiv{width:50%;}
+}
+.table-div{
+  position:relative;
+  width:45%;
+  float:right;
+}
